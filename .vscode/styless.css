@@ -28,21 +28,21 @@ input, button {
 }
 
 .high {
-    background-image: url('C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\WeerApp\\Bilder Layout\\High.jfif');
+    background-image: url ('');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .warm {
-    background-image: url('C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\WeerApp\\Bilder Layout\\warm.jpg');
+    background-image: url ('');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .allright {
-    background-image: url('C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\WeerApp\\Bilder Layout\\Allright.jfif');
+    background-image: url('');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,14 +50,14 @@ input, button {
 
 
 .cold {
-    background-image: url('C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\WeerApp\\Bilder Layout\\cold.jpg');
+    background-image: url('');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
 }
 
 .freezing {
-    background-image: url('C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\WeerApp\\Bilder Layout\\freezing.jfif');
+    background-image: url('');
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat;
