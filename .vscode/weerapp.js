@@ -1,5 +1,5 @@
 const apiKey = '37d8bd68ec43f6f9151eb95108e61ee3';
-
+const apiKey2 = "172714e3b161108a4f5291ee357a03d2";
 
 
 function getWeather() {
@@ -18,11 +18,11 @@ function getWeather() {
       if (data.cod === 200) {
         displayWeather(data);
       } else {
-        document.getElementById('weatherInfo').innerHTML = 'City not found';
+        document.getElementById('weatherApp').innerHTML = 'City not found';
       }
     })
     .catch(error => {
-      console.error('Error fetching weather data:', error);
+      console.log('Error fetching weather data:');
     });
 }
 
@@ -33,6 +33,7 @@ function displayWeather(data) {
     <p>Weather: ${data.weather[0].description}</p>
     <p>Humidity: ${data.main.humidity}%</p>
     <p>Wind Speed: ${data.wind.speed} m/s</p>
+
   `;
 
   document.getElementById('weather-result').innerHTML = weatherInfo;
@@ -51,7 +52,8 @@ function displayWeather(data) {
     document.body.classList.add("cold"); 
 } else {
   document.body.classList.add("freezing")}; 
-};
+}
+  
 
 document.getElementById('get-weather').addEventListener('click', getWeather);
 document.addEventListener('keydown', function(event) {
@@ -59,3 +61,6 @@ document.addEventListener('keydown', function(event) {
       getWeather();
   }
 });
+
+
+

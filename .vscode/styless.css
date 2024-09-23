@@ -1,23 +1,66 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(223, 206, 184);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     height: 100vh;
     margin: 0;
 }
 
-.weatherApp {
-    box-sizing: content-box;
-    background-color: white;
+.banner {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flexbox;
+    max-width: 800px;
+    max-height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecast {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    box-sizing: content-box;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 25px;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.weatherApp {
+    display: flexbox;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
 }
 
 input, button {
     padding: 10px;
+    border-radius: 5px;
     margin: 5px 0;
     width: 80%;
 }
@@ -28,21 +71,21 @@ input, button {
 }
 
 .high {
-    background-image: url("");
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\high.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .warm {
-    background-image: url ('');
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\warm.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .allright {
-    background-image: url('');
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\allright.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,14 +93,14 @@ input, button {
 
 
 .cold {
-    background-image: url('');
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\cold.jpg");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
 }
 
 .freezing {
-    background-image: url('');
+    background-image: url("C:\\Users\\IT-User\\OneDrive - Campus Bildung und Beruf\\Virtual Studio Code\\weather\\weather\\Bilder Layout\\freezing.jpg");
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat;
