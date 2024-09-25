@@ -8,15 +8,18 @@
 </head>
 <body>
     <div class="banner">Weather Actual & Forecast</div>
-    <div class="weatherApp">
+    <div class="content">
+      <div class="weatherApp">
         <h1>Actual weather in...</h1>
         <input type="text" id="cityName" placeholder="Enter city">
         <button id="get-weather">Get Weather</button>
         <div id="weather-result"></div>
+      <div id="imgContainer"></div>
+      </div>
+      <div class="forecast">Forecast upcoming days
+        <h1 id="upcoming"></h1>
+      </div>
     </div>
-    <div class="forecast">Forecast upcoming days
-    <div id="upcoming"></div>
-</div>
     <script src="weerapp.js"></script>
 </body>
 </html>

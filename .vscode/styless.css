@@ -4,9 +4,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
     height: 100vh;
     margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .banner {
@@ -14,35 +19,14 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
-    display: flexbox;
     max-width: 800px;
     max-height: 100px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    margin: 50px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-.forecast {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: xx-large;
-    box-sizing: content-box;
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    margin: 25px;
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
-    
+    margin: auto;
+    margin-top: 20px;
 }
 
 .weatherApp {
@@ -68,6 +52,33 @@ input, button {
 #weather-result {
     margin-top: 20px;
     box-sizing: content-box;
+}
+
+.forecast {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    box-sizing: content-box;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    margin: 25px;
+}
+
+.date-container {
+    display: inline-block;
+    font-weight: normal;
+    font-size: large;
+    background-color: rgba(205, 205, 205, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .high {
